@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.bloque1acceso;
 
 import static java.awt.PageAttributes.MediaType.C;
@@ -9,10 +5,6 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
-/**
- *
- * @author liberadosecretaria1
- */
 public class Bloque1Acceso {
 
     public static void main(String[] args) throws IOException {
@@ -20,7 +12,7 @@ public class Bloque1Acceso {
         File Fichero1 = new File("C:\\dam_accesoDatos\\Ejercicio1");
         File Fichero2 = new File("C:\\dam_accesoDatos\\Ejercicio2");
         
- /*   // 1. Crear el direcotorio dam_accesoDatos: 
+    // 1. Crear el direcotorio dam_accesoDatos: 
         Directorio.mkdir();
         System.out.println(" ");
         
@@ -56,7 +48,6 @@ public class Bloque1Acceso {
         String Lista1[] = Directorio.list();
         for (int i = 0; i < Lista.length; i++){
             System.out.println(Lista1[i]);
-        }*/
         
     // 8. Eliminar el fichero 1 Ejercicio1: 
       if (Fichero1.delete()== true){
